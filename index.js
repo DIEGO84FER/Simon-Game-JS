@@ -61,7 +61,7 @@ function checkAnswer(currentLevel) {
             $("body").removeClass("game-over");
         }, 200);
         
-        $("#level-title").text("Game Over :(... Presiona cualquier tecla para comenzar")
+        $("#level-title").text("Game Over :(... Presiona aquí o cualquier tecla en tu PC para comenzar de nuevo")
         startOver();
     }
 }
